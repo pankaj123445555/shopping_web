@@ -3,7 +3,7 @@ import React from 'react'
 function ImageSection() {
   return (
     <div className='img-section'>
-      <div style={{display: 'flex', justifyContent: 'space-around'}} className='add-line'>
+      <div style={{display: 'flex', justifyContent: 'space-around' , position: 'relative'}} className='add-line'>
       <span className='line' style={{ background: '#FFEBCA'}}>
        <img style={{top:'150px', left: '-10px'}} className='star-icon' src="/images/star1.svg" alt='star icon'/>
        <img style={{top:'250px', left: '-10px'}} className='star-icon' src="/images/star1.svg" alt='star icon'/>
@@ -19,6 +19,9 @@ function ImageSection() {
       <span className='line' style={{ background: '#FFEBCA'}}></span>
       <span className='line' style={{ background: 'rgba(188, 175, 255, 0.78)'}}></span>
       <span className='line' style={{ background: '#BCAFFF'}}></span>
+      <div style={{position:'absolute'}} id='img1'></div>
+      <div style={{position:'absolute'}} id='img2'></div>
+      <div style={{position:'absolute'}} id='img3'></div>
       </div>
     </div>
   )
