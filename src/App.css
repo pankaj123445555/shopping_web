@@ -232,3 +232,11 @@
     stroke: var(--text-slate-color-50, #7E8B9E);
     margin: 10px;
 }
+.bold-text{
+    color: #000;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}

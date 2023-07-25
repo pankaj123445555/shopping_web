@@ -16,8 +16,12 @@ function ImageSection() {
       <span className='line' style={{ background: '#FFEBCA'}}></span>
       <span className='line' style={{ background: 'rgba(188, 175, 255, 0.78)'}}></span>
       <span className='line' style={{ background: '#FFEBCA'}}></span>
-      <span className='line' style={{ background: '#FFEBCA'}}></span>
-      <span className='line' style={{ background: 'rgba(188, 175, 255, 0.78)'}}></span>
+      <span className='line' style={{ background: '#FFEBCA'}}>
+      <img style={{top:'150px', left: '-10px'}} className='star-icon' src="/images/star5.svg" alt='star icon'/>
+      </span>
+      <span className='line' style={{ background: 'rgba(188, 175, 255, 0.78)'}}>
+      <img style={{top:'100px', left: '-10px'}} className='star-icon' src="/images/star7.svg" alt='star icon'/>
+      </span>
       <span className='line' style={{ background: '#BCAFFF'}}></span>
       <div style={{position:'absolute'}} id='img1'></div>
       <div style={{position:'absolute'}} id='img2'></div>
