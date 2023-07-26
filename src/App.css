@@ -67,8 +67,8 @@
 }
 .signup-button{
     display: flex;
-    width: 141px;
-    height: 50px;
+    width: 126px;
+    height: 43px;
     padding: 10px 20.73px 10px 21px;
     justify-content: center;
     align-items: center;
@@ -239,4 +239,71 @@
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
+}
+.checkout-text{
+    color: #000;
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px; /* 127.273% */
+    letter-spacing: 0.6px;
+}
+.checkout-logo{
+    position: absolute;
+    top: 46%;
+    right: 1%;
+}
+.menu-bar{
+    width: 485px;
+    justify-content: space-around;
+}
+.anchor-tag{
+    text-decoration: none;
+    color: #000;
+}
+.bag-button{
+     width: 23px;
+     height: 23px;
+    padding: 4px 7.78px 4px 7.22px;
+    border-radius: 10px;
+    background: #FF7A02;
+}
+.img-btn{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    width: 50px;
+    justify-content: space-between;
+}
+#product-details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.fsize-13-fw-400{
+font-family: Jost;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+}
+.grey-color
+{
+    color: #808080;
+}
+.black-color{
+    color: #000;
+}
+.light-bold{
+color: #191919;
+font-family: Jost;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: 50px;
+}
+.mg-top-2{
+    margin-top: -2px;
 }
