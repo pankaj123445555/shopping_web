@@ -3,6 +3,7 @@ import Header from '../Header'
 import LogoTextComponent from './LogoTextComponent'
 import ProductCategories from './ProductCategories'
 import ProductDetails from './ProductDetails'
+import ProductList from './ProductList'
 
 function Checkout() {
   return (
@@ -10,6 +11,7 @@ function Checkout() {
      <Header/>
      <ProductCategories/>
      <ProductDetails/>
+     <ProductList/>
     </div>
   )
 }
