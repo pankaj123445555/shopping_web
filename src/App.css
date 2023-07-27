@@ -472,3 +472,80 @@ fs-16-fw-500
     border-radius: 124px;
     background: #191919;
 }
+#donate-now{
+    position: relative;
+}
+.background-image{
+    position: relative;
+    /* border: 1px solid black; */
+    height: 900px;
+    overflow: hidden;
+}
+#ellipse1{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+#ellipse2{
+    position: absolute;
+    width: 100%;
+}
+#el1-img{
+    width: 80%;
+    height: 700px;
+}
+#el2-img{
+    width: 86%;
+    height: 800px;
+}
+#rectangle-span{
+    position: absolute;
+    top: -55px;
+    z-index: -1;
+    right: 2%;
+}
+.text-image{
+    position: absolute;
+    z-index: 3;
+    top: 0px;
+    width: 100%;
+    height: 686px;
+    /* border: 1px solid red; */
+}
+#children-image{
+    width: 62%;
+    height: 900px;
+    /* border: 1px solid black; */
+}
+.space-evenly{
+    justify-content: space-evenly;
+}
+#donate-text{
+    width: 38%;
+    height: 900px;
+   
+}
+.children-bold-text{
+color: #000;
+font-family: Red Rose;
+font-size: 78px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 93.6px */
+letter-spacing: 1.56px;
+}
+.fs-22{
+    color: #000;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#dn-btn{
+    width: 212px;
+    height: 51px;
+    border-radius: 4px;
+    border: 1.4px solid #000;
+}
+
