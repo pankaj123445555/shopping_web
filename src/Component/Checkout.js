@@ -4,6 +4,7 @@ import LogoTextComponent from './LogoTextComponent'
 import ProductCategories from './ProductCategories'
 import ProductDetails from './ProductDetails'
 import ProductList from './ProductList'
+import ProceedCheckout from './ProceedCheckout'
 
 function Checkout() {
   return (
@@ -12,6 +13,7 @@ function Checkout() {
      <ProductCategories/>
      <ProductDetails/>
      <ProductList/>
+     <ProceedCheckout/>
     </div>
   )
 }
