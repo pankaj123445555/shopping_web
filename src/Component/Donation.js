@@ -4,6 +4,7 @@ import ProductCategories from './ProductCategories'
 import DonateNow from './DonateNow'
 import DonationBanner from './DonationBanner'
 import DonationCart from './DonationCart'
+import DImages from './DImages'
 
 function Donation() {
   return (
@@ -13,6 +14,7 @@ function Donation() {
     <DonateNow/>
     <DonationBanner/>
     <DonationCart/>
+    <DImages/>
     </div>
   )
 }
