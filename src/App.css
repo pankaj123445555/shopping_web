@@ -658,3 +658,48 @@ line-height: normal;
 .movement{
     margin: 50px 0px;
 }
+.about{
+    height: 699px;
+    background: #000;
+    margin-top: 50px;
+}
+.w-80{
+    width: 75%;
+    /* border: 1px solid white; */
+    /* height: 50px; */
+    /* margin: 5px; */
+}
+.about-text{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.mr-btm-20{
+    margin-bottom: 20px;
+}
+#about-email{
+    height: 81.111px;
+    margin: 5px;
+   border-radius: 50px;
+   background: #FFF;
+   padding: 0px 25px;
+}
+.submit-btn{
+    width: 144.54px;
+    height: 46.354px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F87C09;
+}
+#all-right-reserve{
+    width: -webkit-fill-available;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

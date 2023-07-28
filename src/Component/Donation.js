@@ -5,6 +5,7 @@ import DonateNow from './DonateNow'
 import DonationBanner from './DonationBanner'
 import DonationCart from './DonationCart'
 import DImages from './DImages'
+import About from './About'
 
 function Donation() {
   return (
@@ -15,6 +16,7 @@ function Donation() {
     <DonationBanner/>
     <DonationCart/>
     <DImages/>
+    <About/>
     </div>
   )
 }
