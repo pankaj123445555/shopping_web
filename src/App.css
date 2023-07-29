@@ -703,3 +703,50 @@ line-height: normal;
     font-weight: 400;
     line-height: normal;
 }
+#pop-up{
+    width: 976px;
+    border-radius: 24px;
+    background: #FFF;
+    height: 735px;
+    border: 1px solid black;
+}
+.pop-up-box{
+    width: 70px;
+    height: 70px;
+    border-radius: 12px;
+    border: 1px solid #B4B4B4;
+}
+.cst-dn{
+color: #F87C09;
+text-decoration-line: underline;
+}
+.fs-24-fw-500{
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#per-btn{
+    width: 169px;
+    height: 50px;
+    border-radius: 5px;
+    background: #F4B240;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+#roller{
+    background: url('../public/images/Input.png');
+    width: 626px;
+    height: 10px;
+}
+.donation-total{
+    height: 100px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+}
+#donate-now-btn{
+    width: 638px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background: #00111A;
+}

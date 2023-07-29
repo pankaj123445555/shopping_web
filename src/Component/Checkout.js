@@ -5,6 +5,7 @@ import ProductCategories from './ProductCategories'
 import ProductDetails from './ProductDetails'
 import ProductList from './ProductList'
 import ProceedCheckout from './ProceedCheckout'
+import About from './About'
 
 function Checkout() {
   return (
@@ -14,6 +15,7 @@ function Checkout() {
      <ProductDetails/>
      <ProductList/>
      <ProceedCheckout/>
+     <About/>
     </div>
   )
 }

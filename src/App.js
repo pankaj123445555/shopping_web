@@ -1,5 +1,7 @@
 import './App.css';
-import Donation from './Component/Donation';
+import Checkout from './Component/Checkout';
+import DonationPopUp from './Component/DonationPopUp';
+// import Donation from './Component/Donation';
 // import Checkout from './Component/Checkout';
 // import LoginPage from './Component/LoginPage';
 // import Signup from './Signup';
@@ -8,7 +10,7 @@ import Donation from './Component/Donation';
 function App() {
   return (
     <div className="App">
-      <Donation/>
+       <DonationPopUp/>
     </div>
   );
 }
