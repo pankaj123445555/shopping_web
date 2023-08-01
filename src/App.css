@@ -5,7 +5,8 @@
 .header
 {
     display: flex;
-    padding: 12px 474.55px 12px 475.5px;
+    /* padding: 12px 474.55px 12px 475.5px; */
+    height: 58px;
     justify-content: center;
     align-items: center;
     background: #000;
